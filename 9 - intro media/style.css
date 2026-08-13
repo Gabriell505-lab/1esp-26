@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
-    
+    --primary: #E63946;
+    --secondary: #b8121f;
+    --tertiary: #14386a;
     --dark: #0b0c10;
     --light: #F1FAEE;
     --gray: #93a0b3;
@@ -38,7 +40,8 @@ body {
     font-weight: 700;
     margin: 0 15px;
     padding: 7px 5px;
-
+    border-bottom: 3px solid transparent;
+    transition: border-color .5s ease;
 }
 
 
@@ -63,7 +66,7 @@ h1 {
     line-height: 1;
     letter-spacing: 3px;
     margin: 0;
-
+    text-shadow: 3px 3px 2px var(--secondary), 5px 7px 2px var(--tertiary);
 }
 
 h1 span {
@@ -95,7 +98,7 @@ h1 span {
     border-radius: 5px;
     display: block;
     width: fit-content;
-
+    transition: transform .25s ease, background .25s ease;
 }
 
 
