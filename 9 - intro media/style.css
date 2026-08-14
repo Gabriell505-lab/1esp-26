@@ -140,8 +140,9 @@ h1 span {
     max-width: 940px;
     margin: 0 auto;
 }
+
 .img {
-    background-image:url(/capa.jpg);
+    background-image: url(./capa.jpg);
     background-size: cover;
     background-position: center;
     width: 380px;
@@ -149,7 +150,9 @@ h1 span {
     border-radius: 5px;
     box-shadow: 2px 2px 10px #0b0c10, 20px 20px 0 #E639465f;
 }
-
+.text {
+    width: 50%;
+}
 
 
 h2 {
