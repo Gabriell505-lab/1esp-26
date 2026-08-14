@@ -59,7 +59,11 @@ body {
     border-bottom: 3px solid transparent;
     transition: border-color .5s ease;
 }
-
+.menu a:hover,
+.menu a:focus {
+    border-color: var(--primary);
+    outline: none;
+}
 
 
 #banner {
@@ -92,6 +96,9 @@ h1 span {
     font-size: 36px;
     font-weight: 600;
     margin-top: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: none;
     
 }
 
