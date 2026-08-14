@@ -28,7 +28,23 @@ body {
     color: var(--light);
 }
 
+::selection {
+    background-color: var(--primary);
+    color: var(--light);
+}
 
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 17px 15px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    background-color: #0b0c10;
+    backdrop-filter: blur(10px);
+
+}
 
 
 .menu a {
