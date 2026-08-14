@@ -150,10 +150,20 @@ h1 span {
     border-radius: 5px;
     box-shadow: 2px 2px 10px #0b0c10, 20px 20px 0 #E639465f;
 }
+
 .text {
     width: 50%;
 }
 
+blockquote {
+    color: var(--light);
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 30px 0 0;
+    padding-left: 20px;
+    border-left: 3px solid var(--primary);
+}
 
 h2 {
     font-family: var(--title);
@@ -191,4 +201,28 @@ footer .marca {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+}
+@media (max-width:500px) {
+    #banner {
+        padding: 10px 20px 0;
+        height: 100vh;
+        align-items: center;
+    }
+    .banner-desc {
+        max-width: 100%;
+        margin: 35px 0 50px;
+    }
+    h1 {
+        font-size: 50px;
+
+        span {
+                font-size: 28px;
+
+        }
+    }
+    .conteudo {
+        flex-direction: column;
+        width: 85%;
+        padding-top: 0;
+    }
 }
