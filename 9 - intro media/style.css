@@ -225,4 +225,14 @@ footer .marca {
         width: 85%;
         padding-top: 0;
     }
+    .img{
+        background-image: url(.reveal.jpg);
+        width: 100%;
+        height: 450px;
+        margin-left:-10px;
+    }
+    h2 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
 }
